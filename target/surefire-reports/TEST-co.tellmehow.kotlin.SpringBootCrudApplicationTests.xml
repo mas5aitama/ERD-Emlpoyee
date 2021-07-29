@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="co.tellmehow.kotlin.SpringBootCrudApplicationTests" time="0.775" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="idea.version" value="2021.1.3"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.9+7-LTS"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.9\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\User-Id\Desktop\Micro\07. SpringBootCRUD"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\User-Id\Desktop\Micro\07. SpringBootCRUD"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11.0.9+7-LTS"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\User-Id\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2021.1.3\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA 2021.1.3\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.9\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.9\bin;E:\-- Soft\Maven\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\xampp\php;C:\composer;C:\Users\User-Id\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.3\bin;;C:\Users\User-Id\AppData\Roaming\npm;C:\Users\User-Id\AppData\Roaming\Composer\vendor\bin;C:\Users\User-Id\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2021.1.3\bin;;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA 2021.1.3\plugins\maven\lib\maven3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\User-Id"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="User-Id"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2021.1.3\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2021.1.3\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.1.3 install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.9"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.9"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA 2021.1.3\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="initializationError" classname="co.tellmehow.kotlin.SpringBootCrudApplicationTests" time="0.009">
+    <error message="Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test
+</error>
+    <system-out><![CDATA[20:42:29.523 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class co.tellmehow.kotlin.SpringBootCrudApplicationTests]
+20:42:29.540 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+20:42:29.559 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+20:42:29.590 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [co.tellmehow.kotlin.SpringBootCrudApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+20:42:29.616 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [co.tellmehow.kotlin.SpringBootCrudApplicationTests], using SpringBootContextLoader
+20:42:29.630 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [co.tellmehow.kotlin.SpringBootCrudApplicationTests]: class path resource [co/tellmehow/kotlin/SpringBootCrudApplicationTests-context.xml] does not exist
+20:42:29.632 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [co.tellmehow.kotlin.SpringBootCrudApplicationTests]: class path resource [co/tellmehow/kotlin/SpringBootCrudApplicationTestsContext.groovy] does not exist
+20:42:29.633 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [co.tellmehow.kotlin.SpringBootCrudApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+20:42:29.635 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [co.tellmehow.kotlin.SpringBootCrudApplicationTests]: SpringBootCrudApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:42:29.724 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [co.tellmehow.kotlin.SpringBootCrudApplicationTests]
+20:42:29.744 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+20:42:29.749 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+20:42:29.749 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+20:42:29.777 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [co/tellmehow/kotlin/] to resources [URL [file:/C:/Users/User-Id/Desktop/Micro/07.%20SpringBootCRUD/target/test-classes/co/tellmehow/kotlin/], URL [file:/C:/Users/User-Id/Desktop/Micro/07.%20SpringBootCRUD/target/classes/co/tellmehow/kotlin/]]
+20:42:29.779 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\User-Id\Desktop\Micro\07. SpringBootCRUD\target\test-classes\co\tellmehow\kotlin]
+20:42:29.781 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\User-Id\Desktop\Micro\07. SpringBootCRUD\target\test-classes\co\tellmehow\kotlin] for files matching pattern [C:/Users/User-Id/Desktop/Micro/07. SpringBootCRUD/target/test-classes/co/tellmehow/kotlin/*.class]
+20:42:29.792 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\User-Id\Desktop\Micro\07. SpringBootCRUD\target\classes\co\tellmehow\kotlin]
+20:42:29.793 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\User-Id\Desktop\Micro\07. SpringBootCRUD\target\classes\co\tellmehow\kotlin] for files matching pattern [C:/Users/User-Id/Desktop/Micro/07. SpringBootCRUD/target/classes/co/tellmehow/kotlin/*.class]
+20:42:29.799 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:co/tellmehow/kotlin/*.class] to resources [file [C:\Users\User-Id\Desktop\Micro\07. SpringBootCRUD\target\test-classes\co\tellmehow\kotlin\SpringBootCrudApplicationTests.class], file [C:\Users\User-Id\Desktop\Micro\07. SpringBootCRUD\target\classes\co\tellmehow\kotlin\HomeController.class], file [C:\Users\User-Id\Desktop\Micro\07. SpringBootCRUD\target\classes\co\tellmehow\kotlin\SpringBootCrudApplication.class], file [C:\Users\User-Id\Desktop\Micro\07. SpringBootCRUD\target\classes\co\tellmehow\kotlin\SpringBootCrudApplicationKt.class]]
+20:42:29.921 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [co/tellmehow/] to resources [URL [file:/C:/Users/User-Id/Desktop/Micro/07.%20SpringBootCRUD/target/test-classes/co/tellmehow/], URL [file:/C:/Users/User-Id/Desktop/Micro/07.%20SpringBootCRUD/target/classes/co/tellmehow/]]
+20:42:29.922 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\User-Id\Desktop\Micro\07. SpringBootCRUD\target\test-classes\co\tellmehow]
+20:42:29.923 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\User-Id\Desktop\Micro\07. SpringBootCRUD\target\test-classes\co\tellmehow] for files matching pattern [C:/Users/User-Id/Desktop/Micro/07. SpringBootCRUD/target/test-classes/co/tellmehow/*.class]
+20:42:29.924 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\User-Id\Desktop\Micro\07. SpringBootCRUD\target\classes\co\tellmehow]
+20:42:29.925 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\User-Id\Desktop\Micro\07. SpringBootCRUD\target\classes\co\tellmehow] for files matching pattern [C:/Users/User-Id/Desktop/Micro/07. SpringBootCRUD/target/classes/co/tellmehow/*.class]
+20:42:29.927 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:co/tellmehow/*.class] to resources []
+20:42:29.928 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [co/] to resources [URL [file:/C:/Users/User-Id/Desktop/Micro/07.%20SpringBootCRUD/target/test-classes/co/], URL [file:/C:/Users/User-Id/Desktop/Micro/07.%20SpringBootCRUD/target/classes/co/]]
+20:42:29.929 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\User-Id\Desktop\Micro\07. SpringBootCRUD\target\test-classes\co]
+20:42:29.930 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\User-Id\Desktop\Micro\07. SpringBootCRUD\target\test-classes\co] for files matching pattern [C:/Users/User-Id/Desktop/Micro/07. SpringBootCRUD/target/test-classes/co/*.class]
+20:42:29.931 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\User-Id\Desktop\Micro\07. SpringBootCRUD\target\classes\co]
+20:42:29.932 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\User-Id\Desktop\Micro\07. SpringBootCRUD\target\classes\co] for files matching pattern [C:/Users/User-Id/Desktop/Micro/07. SpringBootCRUD/target/classes/co/*.class]
+20:42:29.933 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:co/*.class] to resources []
+]]></system-out>
+  </testcase>
+</testsuite>
