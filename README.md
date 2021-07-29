@@ -12,14 +12,14 @@
 # REST CRUD
 7. open http://localhost:5758/employee --> to showing rest
 8. open http://localhost:5758/employee/1 --> to showing ID employee by rest
-9. open Postman insert this http://localhost:5758/employee. Choose Mode POST, Select Body and raw, also JSO. Insert this data : 
+9. open Postman insert this http://localhost:5758/employee. Choose Mode POST, Select Body and raw, also JSON. Insert this data : 
    {   "id":100,
       "name":"pandhuta",
       "age":30,
       "dept":"Developer"
    }
    
- 9.  open Postman insert this http://localhost:5758/employee. Choose Mode PUT, Select Body and raw, also JSO. Insert this data :
+ 9.  open Postman insert this http://localhost:5758/employee. Choose Mode PUT, Select Body and raw, also JSON. Insert this data :
    {   "id":100,
       "name":"pandhuta bangkit",
       "age":30,
